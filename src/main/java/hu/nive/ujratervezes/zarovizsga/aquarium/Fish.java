@@ -15,10 +15,10 @@ A kong 2 grammot hízik etetéskor.
 40p ...
 
      */
-    String name;
-    int weight;
-    String color;
-    boolean memoryLoss;
+    protected String name;
+    protected int weight;
+    protected String color;
+    protected boolean memoryLoss;
 
     public Fish(String name, int weight, String color) {
         this.name = name;
